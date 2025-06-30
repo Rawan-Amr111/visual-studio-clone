@@ -1,9 +1,12 @@
-import IconImg from "./iconImg";
+import IconImg from "./IconImg";
 
 const WelcomeTab = () => {
   return (
-    <div className=" h-screen flex itms-center justify-center">
-      <IconImg src="/icons/vscode.svg" className="w-64 h-64" />
+    <div className="h-screen flex items-center justify-center">
+      <IconImg
+        src={`${import.meta.env.BASE_URL}icons/vscode.svg`}
+        className="w-64 h-64"
+      />
     </div>
   );
 };
