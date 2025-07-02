@@ -1,16 +1,36 @@
 # visual-studio-clone
-Visual Studio Code Clone UI
-This is a pixel-perfect clone of the Visual Studio Code user interface, built with React, TypeScript, and Tailwind CSS. The project replicates the layout and visual structure of VS Code, including the sidebar, top bar, and welcome tab — providing a clean, interactive, and customizable front-end experience.
+This project is a functional front-end clone of the popular Visual Studio Code editor, built entirely using React, TypeScript, and Tailwind CSS. It aims to mimic the user interface and experience of VS Code as closely as possible, while demonstrating clean component structure, reusable layouts, and modern front-end best practices.
 
-Key Features:
+🎯 Objectives:
+Practice building complex UI layouts with reusable React components.
 
-Responsive and dynamic VS Code-style layout
+Apply responsive design principles using Tailwind CSS utility classes.
 
-Modular React components (e.g., Sidebar, Tabs, File Explorer)
+Structure a professional-looking front-end project using TypeScript for type safety.
 
-SVG icons and assets stored in the public folder
+Mimic real-world applications to improve front-end architecture and styling skills.
 
-Tailwind CSS for consistent styling
+🧩 Features:
+Sidebar navigation with expandable sections and icons.
 
-Live Demo:
+File explorer showing a mock folder structure similar to VS Code.
+
+Welcome tab layout replicating VS Code’s default launch screen.
+
+Dynamic icon loading using the public/icons folder and BASE_URL for proper asset handling.
+
+Modular components (like Button, IconImg, etc.) with TypeScript type annotations.
+
+Prepared for further enhancements like tabs switching, editor area, and theme toggles.
+
+🚀 Technologies Used:
+React – Component-based front-end framework.
+
+TypeScript – Adds strong typing to JavaScript.
+
+Tailwind CSS – Utility-first CSS framework.
+
+Vite – Fast dev server and build tool.
+
+🌐 Live Demo:
 🔗 https://rawan-amr111.github.io/visual-studio-clone/
